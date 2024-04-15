@@ -1,0 +1,23 @@
+{
+  "name": "sob_personal_repo",
+  "version": "1.0.0",
+  "description": "## Overview In this challenge, you are tasked with the simulation of mining process of a block, which includes validating and including transactions from a given set of transactions. The repository contains a folder `mempool` which contains JSON files.  These files represent individual transactions, some of which may be invalid. Your goal is to successfully mine a block by including only the valid transactions, following the specific requirements outlined below.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^13.11.1",
+    "crypto": "^1.0.1"
+  }
+}
